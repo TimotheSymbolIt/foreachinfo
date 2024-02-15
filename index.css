@@ -7,5 +7,20 @@
 
 #divider {
 	height: 5px;
-	background-color: #DC5F5F;
+	background-color: #dc5f5f;
+}
+
+#header_container {
+	background-color: blue;
+	max-width: 1400px;
+	margin: auto;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#header_menu {
+	display: flex;
+	align-items: center;
 }
