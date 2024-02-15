@@ -16,6 +16,12 @@ h1 {
 	color: #dc5f5f;
 }
 
+h2 {
+	margin: 10px 0;
+	font-family: Chunk;
+	color: #dc5f5f;
+}
+
 /* Header */
 
 #divider {
@@ -103,6 +109,28 @@ a:hover {
 		display: flex;
 		flex-direction: column;
 	}
+}
+
+/*  */
+
+/* Main */
+
+section {
+	max-width: 1400px;
+	margin: auto;
+}
+
+.articles {
+	background-color: rgb(225, 225, 225);
+	display: flex;
+	border-radius: 3px;
+}
+
+.article {
+	background-color: green;
+	width: 25%;
+	margin: 5px;
+	border-radius: 3px;
 }
 
 /*  */
