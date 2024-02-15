@@ -166,4 +166,19 @@ section {
 	-webkit-box-orient: vertical;
 }
 
+@media screen and (max-width: 480px) {
+	section {
+		padding: 10px;
+	}
+
+	.articles {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.article {
+		width: 97%;
+	}
+}
+
 /*  */
