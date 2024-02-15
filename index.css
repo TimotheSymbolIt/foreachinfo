@@ -27,6 +27,12 @@ img {
 	height: 100%;
 }
 
+ul {
+	display: flex;
+	list-style: none;
+	text-align: center;
+}
+
 /* Header */
 
 #divider {
@@ -78,12 +84,6 @@ img {
 
 nav {
 	background-color: #dc5f5f;
-}
-
-ul {
-	display: flex;
-	list-style: none;
-	text-align: center;
 }
 
 a {
@@ -186,3 +186,23 @@ section {
 }
 
 /*  */
+
+/* Footer */
+
+footer {
+	background-color: #dc5f5f;
+}
+
+#footer_container {
+	display: flex;
+	justify-content: center;
+}
+
+.footer_link {
+	margin: 10px;
+	color: white;
+}
+
+.footer_link:hover {
+	cursor: pointer;
+}
