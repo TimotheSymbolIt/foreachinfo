@@ -65,4 +65,27 @@ h1 {
 	background-color: rgb(225, 225, 48);
 }
 
+nav {
+	background-color: #dc5f5f;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+	text-align: center;
+}
+
+a {
+	all: unset;
+	flex-basis: 0;
+	flex-grow: 1;
+	padding: 10px 0px;
+	color: white;
+	cursor: pointer;
+}
+
+a:hover {
+	background-color: #c13a3a;
+}
+
 /*  */
