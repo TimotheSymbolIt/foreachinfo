@@ -213,3 +213,60 @@ footer {
 		flex-direction: column;
 	}
 }
+
+/*  */
+
+/* Ad */
+
+#ad {
+	background-color: rgb(241, 241, 92);
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	z-index: 1;
+}
+
+#ad p {
+	width: 98%;
+	padding: 10px 0;
+	text-align: center;
+}
+
+#ad span {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+#ad span:hover {
+	background-color: rgb(225, 225, 48);
+	cursor: pointer;
+}
+
+/*  */
+
+/* Float Button */
+
+#float_button {
+	background-color: #dc5f5f;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	padding: 20px;
+	border-radius: 50px;
+	display: none;
+	justify-content: center;
+	align-items: center;
+
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+@media screen and (max-width: 480px) {
+	#float_button {
+		display: flex;
+	}
+}
+
+/*  */
