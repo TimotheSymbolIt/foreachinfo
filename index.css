@@ -1,3 +1,11 @@
 * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 	font-family: "Roboto", sans-serif;
+}
+
+#divider {
+	height: 5px;
+	background-color: #DC5F5F;
 }
