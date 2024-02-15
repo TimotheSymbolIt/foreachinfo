@@ -14,14 +14,14 @@
 		<link rel="stylesheet" href="./index.css" />
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Correction Exo Responsive 1</title>
 	</head>
 	<body>
 		<header>
 			<div id="divider"></div>
 			<div id="header_container">
 				<div id="header_menu">
-					<button id="button_menu">
+					<button id="button_menu" onClick="toggleNavbar()">
 						<span class="material-icons">menu</span>
 						<span id="button_menu_text">Menu</span>
 					</button>
@@ -32,7 +32,7 @@
 					<button id="subscribe_button">S'abonner</button>
 				</div>
 			</div>
-			<nav>
+			<nav id="navbar">
 				<ul>
 					<a href="">
 						<li>Culture</li>
@@ -314,10 +314,13 @@
 		</footer>
 		<div id="ad">
 			<p>Abonnez-vous à ForEachInfo</p>
-			<span class="material-icons">close</span>
+			<span id="ad_close_button" class="material-icons" onClick="removeAd()"
+				>close</span
+			>
 		</div>
 		<a href="#divider" id="float_button">
 			<span class="material-icons">expand_less</span>
 		</a>
+		<script src="./index.js"></script>
 	</body>
 </html>
