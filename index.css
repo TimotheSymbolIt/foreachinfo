@@ -1,3 +1,8 @@
+@font-face {
+	font-family: Chunk;
+	src: url(./assets/fonts/Chunk.ttf);
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -5,22 +10,59 @@
 	font-family: "Roboto", sans-serif;
 }
 
+h1 {
+	margin: 0 10px;
+	font-family: Chunk;
+	color: #dc5f5f;
+}
+
+/* Header */
+
 #divider {
 	height: 5px;
 	background-color: #dc5f5f;
 }
 
 #header_container {
-	background-color: blue;
 	max-width: 1400px;
 	margin: auto;
+	padding: 10px 0;
 
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
+#button_menu {
+	background-color: rgb(225, 225, 225);
+	display: flex;
+	align-items: center;
+	padding: 5px;
+	border: none;
+	border-radius: 2px;
+}
+
+#button_menu:hover {
+	cursor: pointer;
+	background-color: rgb(189, 189, 189);
+}
+
 #header_menu {
 	display: flex;
 	align-items: center;
 }
+
+#subscribe_button {
+	padding: 5px;
+	border-radius: 2px;
+	background-color: rgb(241, 241, 92);
+	font-weight: bold;
+	border: none;
+}
+
+#subscribe_button:hover {
+	cursor: pointer;
+	background-color: rgb(225, 225, 48);
+}
+
+/*  */
