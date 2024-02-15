@@ -206,3 +206,10 @@ footer {
 .footer_link:hover {
 	cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+	#footer_container {
+		display: flex;
+		flex-direction: column;
+	}
+}
