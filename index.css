@@ -88,4 +88,21 @@ a:hover {
 	background-color: #c13a3a;
 }
 
+@media screen and (max-width: 480px) {
+	#header_subscribe,
+	#subtitle_header,
+	#button_menu_text {
+		display: none;
+	}
+
+	#header_container {
+		justify-content: center;
+	}
+
+	ul {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
 /*  */
